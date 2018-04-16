@@ -1,3 +1,11 @@
+Autor: Veli Vaigur  
+  
+Chrome extensioni mõte on lasta kasutajal omale sobivad lehed salvestada ja soovi korral need ühe nupuvajutusega uutes tabides avada. Rakendusel on popup, kus on kaks nuppu. Üks nuppudest avab salvestatud lingid tabides ja teine suunab edasi options lehele. Seal on võimalik aadresse lisada ning nii ükshaaval kui ka korraga kustutada. Options lehel on ka salvestatud lehtede loetelu.  
+  
+Abimaterjalina kasutasin https://github.com/tanelotsa/3.ea-kodutoo repositooriumi, sealt pärineb ka suures osas idee. Otseselt midagi kopeerinud ei ole, koodi kirjutasin ise või võtsin oma eelmisest kodutööst.  
+  
+
+
 # 3. kodutöö – Chrome extension
 
 Kodutööna peab looma Chrome extension'i selliselt, et nõuded oleksid täidetud. Soovi korral võib ka teha Firefox'ile.
