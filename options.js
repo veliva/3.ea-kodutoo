@@ -6,7 +6,7 @@ window.onload = function () {
 }
 
 function clearStorage () {
-    window.localStorage.clear()
+    window.localStorage.clear();
     showAllURLs()
 }
 
