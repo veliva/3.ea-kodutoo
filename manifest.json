@@ -2,18 +2,15 @@
     "name": "Test",
     "description": "Test tabide avamine",
     "version": "1.3.3.7",
-    "permissions": ["<all_urls>", "activeTab", "tabs"],
+    "permissions": ["<all_urls>", "tabs"],
 
-    "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'",
-  
     "browser_action": {
       "default_popup": "popup.html"
     },
-  
+
     "content_scripts": [{
         "matches": ["<all_urls>"],
-        "js": ["options.js" ,"background.js"],
-        "css": ["options.css"]
+        "js": ["options.js"]
       }],
     "manifest_version": 2
   }

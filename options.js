@@ -32,6 +32,7 @@ function saveScore (newUrl) {
         stored.push(url2);
         localStorage.setItem('arr', JSON.stringify(stored));
     }
+    document.getElementById('addURL').value = ''
     showHighScores();
 }
 
@@ -45,6 +46,7 @@ function deleteUrl (newUrl) {
             i = -1;
         }
     }
+    document.getElementById('removeURL').value = ''
     showHighScores();
 }
 
