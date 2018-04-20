@@ -1,6 +1,6 @@
 Autor: Veli Vaigur  
   
-Chrome extensioni mõte on lasta kasutajal omale sobivad lehed salvestada ja soovi korral need ühe nupuvajutusega uutes tabides avada. Rakendusel on popup, kus on kaks nuppu. Üks nuppudest avab salvestatud lingid tabides ja teine suunab edasi options lehele. Seal on võimalik aadresse lisada ning nii ükshaaval kui ka korraga kustutada. Options lehel on ka salvestatud lehtede loetelu.  
+Chrome extensioni mõte on lasta kasutajal omale sobivad lehed salvestada ja soovi korral need ühe nupuvajutusega uutes tabides avada. Rakendusel on popup, kus on kolm nuppu. Kaks nuppu on erinevate linkide tabides avamiseks ja teine suunab edasi options lehele. Seal on võimalik aadresse lisada ning nii ükshaaval kui ka korraga kustutada. Options lehel on ka salvestatud lehtede loetelu. Kasutajal on võimalik lisada aadresse kahte eri listi ja neid liste erinevate nuppudega avada.  
   
 Abimaterjalina kasutasin https://github.com/tanelotsa/3.ea-kodutoo repositooriumi, sealt pärineb ka suures osas idee. Otseselt midagi kopeerinud ei ole, koodi kirjutasin ise või võtsin oma eelmisest kodutööst.  
   

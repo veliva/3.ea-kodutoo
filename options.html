@@ -3,21 +3,37 @@
 	<head>
 		<meta charset="UTF-8">
 		<script src="options.js"></script>
+		<style type="text/css">
+			form {
+				display:inline;
+			}
+		</style>
 	</head>
 	<body>
 		<font size="4" style="font-weight:bold">Lisa ükshaaval:</font>
 		<br><br>
 		URL: <input id="addURL" type="text">
-		<button id="addBtn">Lisa</button>
+		<form>
+			<input type="radio" name="addTabs" id="addRadio1" checked> Tabid 1
+			<input type="radio" name="addTabs" id="addRadio2"> Tabid 2
+			<button id="addBtn">Lisa</button>
+		</form>
 		<br><br>
 		<font size="4" style="font-weight:bold">Kustuta ükshaaval:</font>
 		<br><br>
 		URL: <input id="removeURL" type="text">
-		<button id="removeBtn">Eemalda</button>
+		<form>
+			<input type="radio" name="removeTabs" id="removeRadio1" checked> Tabid 1
+			<input type="radio" name="removeTabs" id="removeRadio2"> Tabid 2
+			<button id="removeBtn">Eemalda</button>
+		</form>
 		<br><br>
 		<button id="clearAllBtn">Kustuta kõik aadressid</button>
 		<br><br>
-		<font size="4" style="font-weight:bold">Praegused aadressid:</font>
-		<div id="URLs"></div>
+		<font size="4" style="font-weight:bold">Tabid 1 aadressid:</font>
+		<div id="URLs1"></div>
+		<br><br>
+		<font size="4" style="font-weight:bold">Tabid 2 aadressid:</font>
+		<div id="URLs2"></div>
 	</body>
 </html>

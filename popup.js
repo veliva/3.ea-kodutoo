@@ -3,11 +3,23 @@ document.addEventListener('DOMContentLoaded', function () {
 		window.open("options.html")
 	})
 
-	document.getElementById('tabs').addEventListener('click', function () {
+	document.getElementById('tabs1').addEventListener('click', function () {
 		let stored = JSON.parse(localStorage.getItem('arr'))
 		for (let i=0; i<stored.length; i++) {
-			let newURL = "https://" + stored[i][0]
+			if (stored[i].tabs1 != undefined) {
+				let newURL = "https://" + stored[i].tabs1
 			chrome.tabs.create({ url: newURL })
+			}
+		}
+	})
+
+	document.getElementById('tabs2').addEventListener('click', function () {
+		let stored = JSON.parse(localStorage.getItem('arr'))
+		for (let i=0; i<stored.length; i++) {
+			if (stored[i].tabs2 != undefined) {
+				let newURL = "https://" + stored[i].tabs2
+			chrome.tabs.create({ url: newURL })
+			}
 		}
 	})
 })
